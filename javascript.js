@@ -1,3 +1,3 @@
 let a = 10
-let b = "Test"
+let b = "Testing"
 console.log(a)
