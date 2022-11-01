@@ -1,4 +1,4 @@
 let a = 10
 let b = "Testing"
-let c = "Studying"
+let c = "Study"
 console.log(a)
