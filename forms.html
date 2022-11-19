@@ -44,6 +44,46 @@
         <button>Search YouTube</button>
     </form>
 
+    <h2>Checkboxes</h2>
+    <form action="/birds">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">I Agree to T.O.S.</label>
+    </form>
+
+    <h2>Radio Buttons</h2>
+    <form action="/shoes">
+        <input type="radio" name="shoes" id="jordan_11" value="jordan_11">
+        <label for="shoes">Jordan 11</label><br>
+
+        <input type="radio" name="shoes" id="jordan_12" value="jordan_12">
+        <label for="shoes">Jordan 12</label><br>
+
+        <input type="radio" name="shoes" id="jordan_13" value="jordan_13">
+        <label for="shoes">Jordan 13</label><br>
+    </form>
+
+    <h2>Dropdown Menu</h2>
+    <label for="sneakers">Select the Best Sneaker Brand: </label>
+    <select name="sneakers" id="sneakers">
+        <option value="blank">----</option>
+        <option value="Puma">Puma</option>
+        <option value="Adidas">Adidas</option>
+        <option value="nike">Nike</option>
+        <option value="Asics">Asics</option>
+        <option value="Saucony">Saucony</option>
+    </select>
+
+    <h2>Range Testing</h2>
+    <label for="spending">Average Yearly Sneaker Budget: </label>
+    <input type="range" name="spending_amt" id="spending" value="250" step="100" min="0" max="2000">
+
+    <button type="submit">Submit</button>
+
+
+    <h2>Text Area</h2>
+    <label for="story">Tell Your Story: </label><br>
+    <textarea name="story" id="story" cols="30" rows="5"></textarea>
+
 </body>
 
 </html>
