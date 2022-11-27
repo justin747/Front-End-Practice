@@ -1,5 +1,6 @@
 p {
-    color: green;
+    text-align: center;
+    font-weight: bold;
 }
 
 button {
@@ -7,6 +8,6 @@ button {
     background-color: black;
 }
 
-h2 {
+/* h2 {
     background-color: rgb(89, 151, 0);
-}
+} */
