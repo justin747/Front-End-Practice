@@ -15,3 +15,7 @@ p {
 #cssbutton {
     background-color: teal;
 }
+
+section span a {
+    color: teal;
+}
