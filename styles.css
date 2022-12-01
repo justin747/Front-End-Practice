@@ -19,3 +19,7 @@ p {
 .google a {
     color: teal;
 }
+
+input[type="password"] {
+    color: red;
+}
