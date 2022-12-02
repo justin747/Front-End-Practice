@@ -16,10 +16,20 @@ p {
     background-color: teal;
 }
 
+#cssbutton:hover {
+    background-color: orange;
+}
+
 .google a {
     color: teal;
 }
 
 input[type="password"] {
     color: red;
+}
+
+h2::first-letter {
+    color: red;
+    font-size: larger;
+    font-weight: 900;
 }
