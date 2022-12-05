@@ -1,5 +1,26 @@
 div {
     width: 200px;
     height: 200px;
-    background-color: red;
+}
+
+#one {
+    background-color: greenyellow;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+#two {
+    background-color: teal;
+    border-bottom: 10px;
+    border-color: black;
+    border-style: dashed;
+    box-sizing: border-box;
+
+}
+
+#three {
+    background-color: green;
+    border: 5px dashed blue;
 }
