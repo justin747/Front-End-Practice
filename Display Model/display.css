@@ -1,0 +1,11 @@
+h1 {
+    background-color: teal;
+    border: 5px solid black;
+    display: inline;
+}
+
+span {
+    background-color: palevioletred;
+    border: 5px solid black;
+    display: block;
+}
